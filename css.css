@@ -1,0 +1,91 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.mod-tip {
+    width: 95px;
+}
+.tip-top{
+    position: relative;
+    float: left;
+    width: 95px;
+}
+.shadowed {
+    background-color: #F6F6F6;
+}
+.currentstatus {
+    background-color: #108EE9;
+}
+.mod-tip .container {
+    width: 80px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    border: 1px solid #e5e5e5;
+}
+.mod-tip .container2 {
+    width: 95px;
+    height: 23px;
+    line-height:23px;
+    text-align: center;
+    font-size:12px;
+    color:#666;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+}
+.tip-top .triangle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 12px solid transparent;
+    border-left: 13px solid #e5e5e5;
+    border-bottom: 12px solid transparent;
+}
+.tip-top .triangle:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -12px;
+    right: 1px;
+    border-top: 12px solid transparent;
+    border-left: 13px solid #FFF;
+    border-bottom: 12px solid transparent;
+}
+.tip-top .triangle1:after {
+    border-left: 13px solid #F6F6F6;
+}
+.tip-top .triangle2:after {
+    border-left: 13px solid #108EE9;
+}
+.tip-top .triangle_pre {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 13px solid transparent;
+    border-left: 13px solid #e5e5e5;
+    border-bottom: 13px solid transparent;
+}
+.tip-top .triangle_pre:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -12px;
+    left: -14px;
+    border-top: 12px solid transparent;
+    border-left: 13px solid #fff;
+    border-bottom: 12px solid transparent;
+}
+.end .container {
+    width: 95px;
+    height: 23px;
+    margin:20px 0 0 0;
+    font-size:12px;
+    color:#D0021B;
+    line-height:23px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #D0021B;
+}
